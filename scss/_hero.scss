@@ -60,9 +60,9 @@
 @media (max-width: 500px) {
  
   .hero__section {
-  width: 480px;
-  margin: 0 auto;
-  margin-bottom: 120px;
+    max-width: 470px;
+    width: 90%;
+    margin: 0 auto;
     ul {
      flex-direction: column;
      

@@ -72,7 +72,8 @@ header .header__top ul .header__top-right i {
 
 @media (max-width: 500px) {
   header {
-    width: 480px;
+    max-width: 470px;
+    width: 90%;
     margin: 0 auto;
   }
   .header__bottom .header__bottom-box {
@@ -184,9 +185,9 @@ header .header__top ul .header__top-right i {
 }
 @media (max-width: 500px) {
   .hero__section {
-    width: 480px;
+    max-width: 470px;
+    width: 90%;
     margin: 0 auto;
-    margin-bottom: 120px;
   }
   .hero__section ul {
     flex-direction: column;
@@ -529,11 +530,13 @@ footer .footer__box ul .footer__right-links a img {
 }
 @media (max-width: 500px) {
   main {
-    width: 470px;
+    max-width: 470px;
+    width: 100%;
     margin: 0 auto;
   }
   footer {
-    width: 470px;
+    max-width: 470px;
+    width: 90%;
     margin: 0 auto;
   }
 }

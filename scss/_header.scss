@@ -96,7 +96,8 @@ header {
 
 @media (max-width: 500px) {
   header {
-    width: 480px;
+    max-width: 470px;
+    width: 90%;
     margin: 0 auto;
   }
   .header__bottom {
