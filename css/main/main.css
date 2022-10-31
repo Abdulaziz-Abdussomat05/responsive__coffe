@@ -72,7 +72,7 @@ header .header__top ul .header__top-right i {
 
 @media (max-width: 500px) {
   header {
-    width: 480px;
+    width: 470px;
     margin: 0 auto;
   }
   .header__bottom .header__bottom-box {
@@ -183,8 +183,11 @@ header .header__top ul .header__top-right i {
   }
 }
 @media (max-width: 500px) {
-  .hero__section {
+  main {
     width: 480px;
+    margin: 0 auto;
+  }
+  .hero__section {
     margin-bottom: 120px;
   }
   .hero__section ul {
