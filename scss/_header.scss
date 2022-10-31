@@ -94,8 +94,13 @@ header {
 
 // .header__bottom responsive 
 
-@media (max-width: 530px) {
+@media (max-width: 500px) {
+  header {
+    width: 480px;
+    margin: 0 auto;
+  }
   .header__bottom {
+    
     .header__bottom-box {
       background-image: url("/images/header/Header-img.png");
       background-position: right;

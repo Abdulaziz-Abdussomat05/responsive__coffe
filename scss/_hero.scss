@@ -60,7 +60,8 @@
 @media (max-width: 500px) {
  
   .hero__section {
-  
+  width: 480px;
+  margin: 0 auto;
   margin-bottom: 120px;
     ul {
      flex-direction: column;

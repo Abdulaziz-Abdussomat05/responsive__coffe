@@ -70,7 +70,11 @@ header .header__top ul .header__top-right i {
   cursor: pointer;
 }
 
-@media (max-width: 530px) {
+@media (max-width: 500px) {
+  header {
+    width: 480px;
+    margin: 0 auto;
+  }
   .header__bottom .header__bottom-box {
     background-image: url("/images/header/Header-img.png");
     background-position: right;
@@ -180,6 +184,8 @@ header .header__top ul .header__top-right i {
 }
 @media (max-width: 500px) {
   .hero__section {
+    width: 480px;
+    margin: 0 auto;
     margin-bottom: 120px;
   }
   .hero__section ul {
@@ -285,10 +291,6 @@ header .header__top ul .header__top-right i {
   }
 }
 @media (max-width: 700px) {
-  .container {
-    width: 300px;
-    margin: 0 auto;
-  }
   .favourite__section .favourite__box .favourite__top h2 {
     font-size: 24px;
     color: #FEFCF7;
@@ -464,7 +466,7 @@ img {
 }
 footer {
   background-color: #2C343E;
-  width: 98%;
+  width: 95%;
   margin: 0 auto;
   padding: 55px 0;
 }
@@ -553,5 +555,5 @@ a {
 .container {
   max-width: 1600px;
   margin: 0 auto;
-  width: 95%;
+  width: 98%;
 }/*# sourceMappingURL=main.css.map */
